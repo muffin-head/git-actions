@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: muffin-head/git-action@v1.1
+        uses: muffin-head/git-action
         with:
           who-to-greet: 'Tanmay Kadam'
       # Use the output from the `hello` step
